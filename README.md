@@ -18,3 +18,5 @@
 
 **disclaimer**
 > i add a few more factory and seeder so it will be a little different from the docs that i send but it still the same only have more data
+
+> i also add some picture API

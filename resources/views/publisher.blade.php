@@ -28,7 +28,7 @@
             <div class="card-group">
                 @foreach ($chunk as $publisher)
                     <div class="card" style="width: 18rem;">
-                        <img src="{{ $publisher->image }}" class="card-img-top" alt="...">
+                        <img src="{{ $publisher->image }}" class="card-img-top" alt="NO IMAGE">
                         <div class="card-body">
                             <h5 class="card-title">{{ $publisher->name }}</h5>
                             <p class="card-text">{{ $publisher->address }}</p>

@@ -27,7 +27,7 @@
                 <div class="card-group">
                     @foreach ($chunk as $book)
                         <div class="card" style="width: 18rem;">
-                            <img src="{{ $book->image }}" class="card-img-top" alt="...">
+                            <img src="{{ $book->image }}" class="card-img-top" alt="NO IMAGE">
                             <div class="card-body">
                                 <h5 class="card-title">{{ $book->title }}</h5>
                                 <p class="card-text">by</p>

@@ -18,7 +18,7 @@ class PublisherFactory extends Factory
             'address' => $this->faker->address,
             'phone' => $this->faker->phoneNumber,
             'email' => $this->faker->unique()->safeEmail,
-            'image' => $this->faker->imageUrl(640, 480, 'cats', true, 'Faker'),
+            'image' => 'https://picsum.photos/id/'. (string)$this->faker->randomNumber(3) . '/200',
         ];
     }
 }
