@@ -26,5 +26,23 @@ class CategorySeeder extends Seeder
         Category::create([
             'name' => 'Romance',
         ]);
+        Category::create([
+            'name' => 'Drama',
+        ]);
+        Category::create([
+            'name' => 'American',
+        ]);
+        Category::create([
+            'name' => 'Slow',
+        ]);
+        Category::create([
+            'name' => 'Comedy',
+        ]);
+        Category::create([
+            'name' => 'Funny',
+        ]);
+        Category::create([
+            'name' => 'Cool',
+        ]);
     }
 }

@@ -14,8 +14,8 @@ class BookCategoryFactory extends Factory
     public function definition()
     {
         return [
-            'book_id' => $this->faker->numberBetween(1, 12),
-            'category_id' => $this->faker->numberBetween(1, 4),
+            'book_id' => $this->faker->numberBetween(1, 100),
+            'category_id' => $this->faker->numberBetween(1, 10),
         ];
     }
 }

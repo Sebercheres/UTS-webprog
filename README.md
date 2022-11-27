@@ -15,3 +15,6 @@
 - if it is succesful type `php artisan serve`
 - go to your localhost:8000
 - voila the code is running
+
+**disclaimer**
+> i add a few more factory and seeder so it will be a little different from the docs that i send but it still the same only have more data
